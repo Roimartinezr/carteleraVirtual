@@ -1,0 +1,9 @@
+1- biblioteca[i].nombre == cadena
+2- biblioteca[i].nombre.startsWith(cadena)
+3- biblioteca[i].nombre.startsWith(matrizCadena[0])
+4- biblioteca[i].nombre.startsWith(matrizCadena[0]+" "+matrizCadena[1])
+5- biblioteca[i].nombre.startsWith(matrizCadena[0]+" "+matrizCadena[1]+" "+matrizCadena[2])
+6- *doble bucle* biblioteca[i].includes(matrizCadena[u])
+------------------------------------------------------------
+7*cada uno con el biblioteca[i].nombre.toLowerCase()).startsWith()/includes()
+8*Capar el meter determinantes (del, de) en el matrizCadena[]

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset='utf-8'>
+        <title>Cartelera digitaL</title>
+        <link rel='stylesheet' type='text/css' href='./Estilos/estiloPrincipal.css'>
+        <link rel='stylesheet' type='text/css' href='./Estilos/estilosLibros.css'>
+        <link rel='stylesheet' type='text/css' href='./Estilos/estiloMenu.css'>
+        <script src='./Scripts/BaseDatos.js'></script>
+        <script language='JavaScript' type='text/javascript' src='./Scripts/Filtrar.js'></script>
+        <script language='JavaScript' type='text/javascript' src='./Scripts/Buscar.js'></script>
+        <style type='text/css'>
+            nav a#todo {
+                color: black;
+                background-color: rgb(196, 0, 130);
+                border-color: white;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Cartelera digitaL</h1>
+            <nav>
+                <div>
+                    <div id="buscar"><a class="buscar"id="buscar" href="javascript:;" onclick="buscar();" role="button"></a></div>
+                    <div><a id='todo' href='javascript:;' onclick='filtrarTodo();' role='button'>Todo</a></div>
+                    <div><a id='accion' href='javascript:;' onclick='filtrarAccion();' role='button'>Accion</a></div>
+                    <div><a id='aventura' href='javascript:;' onclick='filtrarAventura();' role='button'>Aventura</a></div>
+                    <div><a id='comedia' href='javascript:;' onclick='filtrarComedia();' role='button'>Comedia</a></div>
+                    <div><a id='drama' href='javascript:;' onclick='filtrarDrama();' role='button'>Drama</a></div>
+                    <div><a id='ficcion' href='javascript:;' onclick='filtrarFiccion();' role='button'>Ficcion</a></div>
+                    <div><a id='policial' href='javascript:;' onclick='filtrarPolicial();' role='button'>Policial</a></div>
+                    <div><a id='romance' href='javascript:;' onclick='filtrarRomance();' role='button'>Romance</a></div>
+                    <div><a id='suspense' href='javascript:;' onclick='filtrarSuspense();' role='button'>Suspense</a></div>
+                    <div><a id='terror' href='javascript:;' onclick='filtrarTerror();' role='button'>Terror</a></div>
+                </div>
+            </nav>
+        </header>
+        <div id="biblioteca">
+            
+        </div>
+    </body>
+    <script src="./Scripts/listalibros.js"></script>
+    <!-- <script type="module" src="./Scripts/verificadorLeido.js"></script> -->
+</html>

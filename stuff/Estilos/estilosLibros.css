@@ -1,0 +1,76 @@
+body>div div {
+    display: inline-table;
+    list-style: none;
+    box-sizing: border-box;
+    text-align: center;
+    padding: 0 0mm;
+    margin: 2mm ;
+    width: 60mm;
+    height: 80mm;
+    background-image: linear-gradient(gray, black);
+    border: 0.7mm solid rgb(0, 0, 0);
+    border-radius: 4%;
+}
+
+body>div div a {
+    display: inline-block;
+}
+
+body>div div a img {
+    padding-top: 3mm;
+    padding-bottom: 1.5mm;
+    display: inline-block;
+    width: 10em;
+    height: 14em;
+}
+/*body>div.true a img {
+    padding-bottom: 9.2mm;
+    background-image: url("./checkImage/noleido.png");
+    background-size: 24px;
+    background-repeat: no-repeat;
+    background-position-y: 100%;
+    background-position-x: 50%;
+}*/
+body>div div:hover a img {
+    width: 12em;
+    height: 16em;
+    padding: 0 0;
+    padding-top: 1.5mm;
+    background-image: none;
+}
+body>div div:hover {
+    background-image: linear-gradient(royalblue, rgb(0, 0, 0) 75%);
+}
+/*body>div.true:hover {
+    background-image: linear-gradient(rgb(116, 20, 20), black);
+}
+body>div.false:hover {
+    background-image: linear-gradient(rgb(30, 119, 18), black);
+}
+*/
+
+body>div div h2 {
+    font-weight: unset;
+    font-size: 3.5mm;
+    padding: 0 0;
+    margin: 0 0;
+}
+body>div div h2:first-child {
+    margin-top: 4mm;
+    padding-bottom: 1mm;
+    text-decoration: underline;
+    font-size: 4mm;
+    font-weight: bold;
+}
+
+label.leido {
+    margin: 0 0;
+    padding: 0 0;
+}
+input.leido {
+    margin: 0 0;
+    padding: 0 0;
+}
+
+
+

@@ -1,0 +1,55 @@
+nav>div {
+    background-color: royalblue;
+    margin: auto;
+    margin-bottom: 40px;
+    padding: 5px 8px;
+    display: inline-block;
+    width: auto;
+}
+nav div div {
+    display: inline-block;
+    margin: 5px 0;
+}
+nav a.buscar:link {
+    padding: 3px 18px;
+    background-color: rgb(209, 14, 14);
+    background-image: url("./checkImage/buscar.png");
+    background-size: 18px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: center;
+}
+nav a.buscar:active {
+    background-image: url("./checkImage/buscarHover.png");
+}
+nav a:link {
+    box-sizing: border-box;
+    background-color: rgb(255, 0, 170);
+    text-decoration: none;
+    font-variant: small-caps;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    margin: 0px 0;
+    margin-left: 4px;
+    padding: 2px 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+nav a:first-child {
+    margin-left: 0;
+}
+
+nav a:visited {
+    color: white;
+    border: 1px solid black;
+} 
+nav a:hover {
+    background-color: rgb(196, 0, 130);
+    border-color: white;
+}
+nav a:active {
+    color: black;
+    border-color: black;
+}

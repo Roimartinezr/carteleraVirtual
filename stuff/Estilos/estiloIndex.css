@@ -1,0 +1,58 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+
+body {
+    background-color: rgb(145, 145, 145);
+}
+
+body header#index h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    -webkit-text-stroke: 2px black;
+    text-align: center;
+    font-size: 120px;
+    color: rgb(255, 0, 170);
+    font-variant: small-caps;
+    text-shadow: 6px 4px royalblue;
+    padding: 0 0;
+    margin-top: 5%;
+    margin-bottom: 0;
+}
+header#index {
+    text-align: center;
+}
+
+header#index a {
+    text-align: center;
+    display: inline-block;
+    background-color: blue;
+    background-image: url("./checkImage/inicioIndex.png");
+    background-repeat: no-repeat;
+    background-position-x: 54%;
+    background-position-y: 50%;
+    background-size: 40%;
+    text-align: center;
+    width: 5cm;
+    height: 5cm;
+    margin: auto;
+    margin-top: 9%;
+    margin-bottom: 5%;
+    padding: 10px 10px;
+    border-radius: 110px;
+}
+
+header#index a:hover {
+    margin: auto;
+    margin-top: 8%;
+    width: 6cm;
+    height: 6cm;
+    border-radius: 150px;
+    margin-bottom: 3%;
+}
+
+header#index a:active {
+    width: 5.5cm;
+    height: 5.5cm;
+    margin-top: 8.5%;
+    margin-bottom: 4%;
+    background-color: rgb(0, 0, 165);
+    background-image: url("./checkImage/inicioIndexPulsado.png");
+}

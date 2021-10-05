@@ -1,0 +1,20 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700);
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3.5mm;
+    padding: 0 0;
+    margin-left: 2mm;
+    margin-right: 2mm;
+    background-color: rgb(145, 145, 145);
+    color: white;
+    text-align: center;
+}
+body header h1 {
+    -webkit-text-stroke: 1px black;
+    text-align: center;
+    font-size: 65px;
+    color: rgb(255, 0, 170);
+    font-variant: small-caps;
+    text-shadow: 3px 3px royalblue;
+    margin-bottom: 10px;
+}
